@@ -10,12 +10,15 @@ const root = ReactDOM.createRoot(el);
 
 // Create a Component
 function App() {
-    const name = 'Vincent';
+    const name = 'Vincent ';
+    const age = 53;
 
   return (
     <div>
         My name is:
-        <h1>{name}</h1>
+        <h1>{name} 
+            {age}
+        </h1>
     </div>
   );
 }
