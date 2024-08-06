@@ -10,17 +10,7 @@ const root = ReactDOM.createRoot(el);
 
 // Create a Component
 function App() {
-    const name = 'Vincent ';
-    const age = 53;
-
-  return (
-    <div>
-        My name is:
-        <h1>{name} 
-            {age}
-        </h1>
-    </div>
-  );
+    return <input type="number" min={5} max={10} />;
 }
 
 // Show the component on the screen
