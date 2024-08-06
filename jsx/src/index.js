@@ -10,10 +10,14 @@ const root = ReactDOM.createRoot(el);
 
 // Create a Component
 function App() {
-//    const date = new Date();
-//    const time = date.toLocaleTimeString();
+    const name = 'Vincent';
 
-  return <h1>{new Date().toLocaleTimeString()}</h1>;
+  return (
+    <div>
+        My name is:
+        <h1>{name}</h1>
+    </div>
+  );
 }
 
 // Show the component on the screen
