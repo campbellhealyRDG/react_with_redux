@@ -14,6 +14,7 @@ function App() {
   const minValue = 5;
   return (
     <input 
+    style={{border: '3px solid blue'}}
     type={inputType} 
     min={minValue} 
     />
